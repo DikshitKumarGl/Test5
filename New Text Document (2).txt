@@ -1,0 +1,9 @@
+System.out.println(ticketBooking.getCustomerName());
+				System.out.println(t.getTrainNumber());
+				System.out.println(t.getTrainName());
+				System.out.println(new Date());
+				
+				System.out.println(t.getArrival());
+				System.out.println(t.getDeparture());
+				System.out.println(t.getDuration());
+				System.out.println(t.getFarePerPassenger()*ticketBooking.getNoOfTickets());
